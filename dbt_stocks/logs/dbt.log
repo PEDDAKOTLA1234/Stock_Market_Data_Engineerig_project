@@ -1,0 +1,33 @@
+[0m16:38:06.129343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DC889450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DEA67BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DEA64EB0>]}
+
+
+============================== 16:38:06.149529 | c4aafaef-6664-42c5-985c-a75c192cd82f ==============================
+[0m16:38:06.149529 [info ] [MainThread]: Running with dbt=1.10.15
+[0m16:38:06.160236 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'invocation_command': 'dbt init dbt_stocks', 'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\pedda\\.dbt', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m16:38:06.323296 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\pedda\.dbt
+[0m16:38:06.345253 [debug] [MainThread]: Starter project path: C:\Users\pedda\Desktop\stock de\venv\lib\site-packages\dbt\include\starter_project
+[0m16:38:06.787592 [info ] [MainThread]: 
+Your new dbt project "dbt_stocks" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:38:06.800279 [info ] [MainThread]: Setting up your profile.
+[0m16:38:16.264906 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m16:38:16.264906 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m16:38:16.264906 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:04:40.500828 [info ] [MainThread]: Profile dbt_stocks written to C:\Users\pedda\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:04:40.684912 [debug] [MainThread]: Command `dbt init` succeeded at 17:04:40.674895 after 1595.08 seconds
+[0m17:04:40.695924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DC889450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DEAEB5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DEA377C0>]}
+[0m17:04:40.706811 [debug] [MainThread]: Flushing usage events
+[0m17:04:41.833583 [debug] [MainThread]: An error was encountered while trying to flush usage events
